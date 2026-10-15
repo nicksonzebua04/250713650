@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1 {
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            background-color: #f1c40f;
+            color: #2c3e50;
+            font-weight: bold;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Website Kami</h1>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Tentang Kami</h2>
+            <p style="color: #c0392b; font-weight: bold;">
+                Ini adalah paragraf pertama yang menggunakan <span class="highlight">Inline Style Sheet</span> untuk mengatur warna teks dan ketebalan font secara langsung.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Layanan Kami</h2>
+            <div style="background-color: #e8f8f5; padding: 15px; border-left: 4px solid #1abc9c;">
+                <p>Bagian ini menggunakan inline style untuk memberikan latar belakang khusus dan padding di dalam kontainer.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Program CSS Lengkap. Hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>
